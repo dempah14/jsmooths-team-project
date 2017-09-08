@@ -35,12 +35,13 @@ img {
     width: 51px;
     height: 51px;
     margin-top: 26px;
+    transition: opacity 0.2s
 }
 
 input:focus {outline:none;}
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #CEF520;
-  text-align: center;
+  color: grey;
+  text-align: left;
 }
 input {
     width: 50%;
