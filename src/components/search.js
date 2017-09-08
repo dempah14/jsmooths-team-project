@@ -4,7 +4,7 @@ class Search extends Component {
   render() {
     return (
       <div className="App">
-        Search
+        <input></input>
       </div>
     );
   }
