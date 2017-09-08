@@ -22,3 +22,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.parent {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/*@import url("./magnifying-glass.png");*/
+/*.magnifying-glass { position: relative; }
+.magnifying-glass input { text-indent: 30px;}
+.magnifying-glass .fa-search {
+  position: absolute;
+  top: 24px;
+  right: 7px;
+  font-size: 15px;
+}*/

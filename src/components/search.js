@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
 
 class Search extends Component {
+  state = {
+    userInput: ""
+  }
+
+  handleChange(input) {
+    this.setState({ userInput: input })
+  }
+
   render() {
     return (
       <div className="App">
-        <input></input>
+        <div className="magnifying-glass">
+          <input onChange={ (e) => { this.handleChange(e.target.value) } }></input>
+        </div>
       </div>
     );
   }
