@@ -9,24 +9,23 @@ class Todos extends Component {
     this.state = {
       click: false,
       style: {
-        "display": "none"
+        "opacity": "0"
       }
-    }
+    };
   }
 
   clickHandler() {
     if(!this.state.click) {
       this.setState({
         style: {
-          "display": "block",
-          "width": "20px"
+          "opacity": "1",
         },
         click: true
       });
      }else {
       this.setState({
         style: {
-          "display": "none"
+          "opacity":"0"
         },
         click: false
       });
@@ -36,7 +35,7 @@ class Todos extends Component {
   render() {
     return (
       <div className="parent">
-        <img style={this.state.style} src="http://www.iconsdb.com/icons/preview/green/check-mark-8-xxl.png"/>
+        <img style={this.state.style} src="http://www.iconsdb.com/icons/preview/green/checked-checkbox-xxl.png"/>
         <p onClick={ () => {this.clickHandler(); }}>{this.props.text}</p>
       </div>
     );
