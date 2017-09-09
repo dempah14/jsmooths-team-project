@@ -22,3 +22,50 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.parent {
+  margin-top: 40px;
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+img {
+    width: 51px;
+    height: 51px;
+    margin-top: 26px;
+    transition: opacity 0.2s
+}
+
+input:focus {outline:none;}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+  text-align: left;
+}
+input {
+    width: 50%;
+    margin-top: 50px;
+    font-size: 35px;
+    border: none;
+    border-bottom: solid 1px #CEF520;
+    color: #CEF520;
+    background: rgba(40, 40, 42, 1);
+    padding: 10px;
+}
+html {
+    color: #CEF520;
+    font-size: 35px;
+    font-family: sans-serif;
+    height: 100%;
+    background: rgba(40, 40, 42, 1);
+}
+/*@import url("./magnifying-glass.png");*/
+/*.magnifying-glass { position: relative; }
+.magnifying-glass input { text-indent: 30px;}
+.magnifying-glass .fa-search {
+position: absolute;
+top: 24px;
+right: 7px;
+font-size: 15px;
+}*/
